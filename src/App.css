@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  background-color: whitesmoke;
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+.navbar {
+  background-color: #21325e;
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.links a {
+  color:white;
+  margin: 10px;
+  font-size: 25px;
+  text-align: center;
+  margin: auto;
+  margin-right: 65px;
+}
+
+.navbar .links {
+  align-items: center;
+  margin-right: 500px;
+}
+
+.navbar .user { 
+  display: flex;
+  justify-content: center;
+}
+
+.user {
+  margin-right: 30px;
+}
+
+.user p {
+  font-size: 15px;
+  margin-right: 10px;
+  color: white;
+}
+
+.user img {
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.user button{
+  height: 40px;
+}
+
+.user button:hover{
+  cursor: pointer;
+}
+
+.create-post {
+  width: 100%;
+  height: 880px;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  margin-top: 50px;
+  padding: 30px 20px;
+  width: 320px;
+  height: 230px;
+  border-radius: 7px;
+  background-color: white;
+  backdrop-filter: blur(5px);
+  background-color: #21325e;
+  overflow: hidden;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+input,
+textarea {
+  padding: 8px 10px;
+  margin: 3px 8px 16px 8px;
+  background-color: rgba(222, 239, 248, 0.877);
+  border: 0px transparent;
+  border-radius: 5px;
+  color:black;
+  font-size: 16px;
+  z-index: 1;
+}
+
+.submitForm:hover {
+  cursor: pointer;
+}
+
+.post {
+  background-color: white;
+  border-radius: 10px;
+  width: 400px;
+  height: 300px;
+  margin:auto ;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.post button {
+  cursor: pointer;
+}
